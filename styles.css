@@ -1,6 +1,8 @@
 table {
   border: 1px solid black;
   border-collapse: collapse;
+  display: inline-block;
+  float: left;
 }
 
 td {
@@ -11,3 +13,25 @@ td {
   border: .5px solid #c3c3c3;
   border-collapse: collapse;
 }
+
+.color-selector {
+  position: fixed;
+  display: inline-block;
+  width: 20px;
+}
+
+.color-selector div {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.red    { background-color: red;}
+.orange { background-color: orange;}
+.yellow { background-color: yellow;}
+.green  { background-color: green;}
+.blue   { background-color: blue;}
+.purple { background-color: purple;}
+.gray   { background-color: gray;}
+.black  { background-color: black;}

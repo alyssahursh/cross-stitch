@@ -8,26 +8,22 @@
   </head>
   <body>
     <table>
-      <%  85.times do |x|  %>
+      <%  155.times do |x|  %>
         <tr>
-          <% 160.times do |x| %>
+          <% 155.times do |x| %>
             <td></td>
           <%end%>
         </tr>
       <%end%>
     </table>
+
+    <% colors = ["Pink", "HotPink", "DeepPink", "MediumVioletRed", "Crimson", "DarkRed", "Tomato", "DarkOrange", "Yellow", "Gold", "YellowGreen", "GreenYellow", "MediumSeaGreen", "ForestGreen", "DarkGreen", "Turquoise", "PaleTurquoise", "LightSeaGreen", "Teal", "DodgerBlue", "RoyalBlue", "DarkBlue", "Plum", "MediumOrchid", "DarkOrchid", "Indigo", "Gainsboro", "Silver", "Gray", "DimGray", "Black"] %>
+    <section class="color-selector">
+      <% colors.each do |color| %>
+        <div class="color" style="background-color: <%= color %>;"></div>
+      <% end %>
+    </section>
   </body>
 </html>
 
-<script>
-
-  $('td').click( function() {
-    if ($(this).css('background-color') === 'rgba(0, 0, 0, 0)') {
-      $(this).css('background', '#4a4a4a');
-    }
-    else {
-      $(this).css('background', 'rgba(0, 0, 0, 0)');
-    }
-  } );
-
-</script>
+<script src="scripts.js"></script>
