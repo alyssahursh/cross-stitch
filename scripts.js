@@ -6,7 +6,6 @@ $('.color').click( function() {
 
 
 $('td').click( function() {
-  console.log($(this).css('background-color'))
   if ($(this).css('background-color') != color) {
     $(this).css('background-color', color);
   }
