@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Graph Paper</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="jquery-3.1.1.min.js"></script>
+  </head>
+  <body>
+    <table>
+      <%  85.times do |x|  %>
+        <tr>
+          <% 160.times do |x| %>
+            <td></td>
+          <%end%>
+        </tr>
+      <%end%>
+    </table>
+  </body>
+</html>
+
+<script>
+
+  $('td').click( function() {
+    if ($(this).css('background-color') === 'rgba(0, 0, 0, 0)') {
+      $(this).css('background', '#4a4a4a');
+    }
+    else {
+      $(this).css('background', 'rgba(0, 0, 0, 0)');
+    }
+  } );
+
+</script>
