@@ -13,9 +13,9 @@ Play with it [here](https://alyssahursh.github.io/cross-stitch/).
 Yeah, well so is cross stitch
 
 ## Why did you build this?
-1. I wanted to see what I could build in <100 lines (without writing totally obtuse code)
 1. I had a cross stitch project in mind and needed a tool to plan the layout.
-1. When I was 10, I tried to make my own cross stitch patterns in Excel, but Excel didn't have conditional formatting yet, so changing the color of every cell took 3+ clicks. I just wanted to build the thing that 10-year-old-me had wanted.
+1. When I was 10, I tried to make my own cross stitch patterns in Excel, but Excel didn't have conditional formatting yet, so changing the color of every cell took 3+ clicks. I just wanted to build the thing that 10-year-old-me had wanted, and to make that kid proud.
+1. I wanted to see what I could build in <100 lines (without writing totally obtuse code)
 
 ## If I had more time
 * I'd build out an option to bulk-clear either by color or by selecting an area.
