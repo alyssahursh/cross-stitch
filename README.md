@@ -1,6 +1,7 @@
 # Cross Stitch Pattern Drawing Tool
-A tiny app for drawing cross stitch patterns. 
+A tiny web app for drawing cross stitch patterns. 
 Less than 100 lines of code with a little html, css, jquery, and an erb compiler.
+Play with it [here](https://alyssahursh.github.io/cross-stitch/).
 
 ## Sample pattern and completed project
 ![Cross stitch pattern and finished project](/Cross_stitch_demo.png?raw=true "Cross Stitch Demo")
@@ -17,5 +18,7 @@ Yeah, well so is cross stitch
 1. When I was 10, I tried to make my own cross stitch patterns in Excel, but Excel didn't have conditional formatting yet, so changing the color of every cell took 3+ clicks. I just wanted to build the thing that 10-year-old-me had wanted.
 
 ## If I had more time
-* I'd build out an option to bulk-clear either by color or by selecting an area
-* I'd 
+* I'd build out an option to bulk-clear either by color or by selecting an area.
+* I'd fix the cell resizing that happens on narrow screens.
+* I'd add darker gridlines to demarcate rows and columns of 10 squares to facilitate with stitch counting. 
+* I'd develop an alphabet tool to allow a user to place letters rather than having to draw them by hand.
