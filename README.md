@@ -6,6 +6,12 @@ Play with it [here](https://alyssahursh.github.io/cross-stitch/).
 ## Sample pattern and completed project
 ![Cross stitch pattern and finished project](/Cross_stitch_demo.png?raw=true "Cross Stitch Demo")
 
+## Technologies
+* jQuery
+* HTML/CSS
+* Ruby (erb and erb compiler)
+* Deployed with Github pages
+
 ## How to use
 [Click on over to the app](https://alyssahursh.github.io/cross-stitch/), then just start clicking around. Change your drawing color by clicking on the palette to the right. Made a mistake? That's okay, it happens. Clicking on an already-colored square will either update the square's color to your current drawing color, or — if the square's color and the drawing color are the same — turn the square white.
 
