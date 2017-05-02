@@ -1,4 +1,4 @@
-# Cross Stitch Pattern Drawing Tool
+# Cross Stitch Pattern Drawing Tool 
 A tiny web app for drawing cross stitch patterns. 
 Less than 100 lines of code with a little html, css, jquery, and an erb compiler.
 Play with it [here](https://alyssahursh.github.io/cross-stitch/).
