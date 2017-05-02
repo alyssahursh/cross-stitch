@@ -8,8 +8,8 @@ Play with it [here](https://alyssahursh.github.io/cross-stitch/).
 
 ## Technologies
 * jQuery
-* HTML/CSS
-* Ruby (erb and erb compiler)
+* HTML5/CSS3
+* Ruby 2.3.1
 * Deployed with Github pages
 
 ## How to use
